@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mfcecilia/todo-linear.git"
+    "url": "git+https://github.com/mfcecilia/todolist.click.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mfcecilia/todo-linear/issues"
+    "url": "https://github.com/mfcecilia/todolist.click/issues"
   },
-  "homepage": "https://github.com/mfcecilia/todo-linear#readme",
+  "homepage": "https://github.com/mfcecilia/todolist.click#readme",
   "dependencies": {
     "express": "^4.13.4"
   }
