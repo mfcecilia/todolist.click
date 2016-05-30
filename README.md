@@ -1,6 +1,6 @@
 # todolist.click
 
-####License
+
 
 
     Copyright (C) 2016 Mykayla Fernandes
