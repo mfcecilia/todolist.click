@@ -1,0 +1,150 @@
+html
+{
+    background-color: #073B4C;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFD166;
+}
+
+h3
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #06D6A0;
+}
+
+h6
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #EF476F;
+}
+#website-link
+{
+  text-decoration: none;
+  font-weight: normal;
+  color: #EF476F;
+}
+
+#john-cena
+{
+  color: #06D6A0;
+  text-decoration: none;
+}
+
+
+
+/*this is the first column*/
+.items
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #118AB2;
+  background-color: #118AB2;
+  height: 20em;
+}
+
+.first
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFD166;
+}
+
+#first-submit
+{
+  background-color: #EF476F;
+  color: #073B4C;
+}
+
+/*this is the second column*/
+.dropdown
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #118AB2;
+    height: 20em;
+}
+.second
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #FFD166;
+}
+
+/*this is the third column*/
+.choose
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #118AB2;
+    height: 20em;
+    text-overflow: ellipsis;
+}
+
+.third
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #FFD166;
+}
+
+/*history table starts here*/
+tr
+{
+  color: #FFD166;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+td
+{
+  color: #06D6A0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: none !important;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+td button
+{
+  color: #06D6A0;
+  cursor: pointer;
+}
+#history
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+}
+
+/*input placeholder attributes*/
+::-webkit-input-placeholder {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   text-align: center;
+}
+
+/*option and select attributes*/
+option
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  max-width: 80px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+select
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  max-width: 80px !important;
+}

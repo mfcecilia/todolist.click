@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Mykayla\OneDrive\hack\side-projects\todo-linear\public\css\main.css">
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Mykayla\OneDrive\hack\side-projects\todo-linear\public\lib\Skeleton-2.0.4\css\skeleton.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <script src="C:\Users\Mykayla\OneDrive\hack\side-projects\todo-linear\public\js\main.js"></script>
+
+<title>Todo</title>
+</head>
+<body>
+
+<h1>To Do List</h1>
+<h3>"This app should theoretically combat the <a href="http://instantcena.com/" target="_blank" id="john-cena"> explosion </a> of sticky notes all over my workspace"</h3>
+<h6><a href="http://www.mfcecilia.co" target="_blank" id="website-link"> -Mykayla Fernandes</a></h6>
+
+<!-- .container is main centered wrapper -->
+<div class="container">
+
+  <!-- columns should be the immediate child of a .row -->
+  <!-- just use a number and class 'column' or 'columns' -->
+  <!-- there are a few shorthand columns widths as well -->
+  <div class="row">
+    <div class="one-third column items">
+      <p class="first">first input</p>
+      <br>
+      <form id = "todo" name="todo" autocomplete="off">
+        <input id = "first-input" placeholder="add to do list item here"type="text" name="item">
+        <br>
+        <input id="first-submit" type="submit">
+      </form>
+    </div>
+
+    <div class="one-third column dropdown">
+      <p class="second">second input</p>
+      <br>
+      <form id = "select-location" name="form2">
+        <select name="two" id="location" disabled="disabled">
+            <option value="Last">Last</option>
+            <option value="First">First</option>
+            <option value="Random">Random</option>
+            <option value="Before">Before</option>
+            <option value="After">After</option>
+        </select>
+        <br>
+        <input id="second-submit" type="submit" disabled="disabled" name="submit2">
+      </form>
+      </div>
+
+    <div class="one-third column choose">
+      <p class="third">third input</p>
+      <br>
+      <form id = "choose-location" name="form3">
+        <select name="three" id="choose" disabled="disabled" style="width: 80px;" style="max-width: 100px;">
+          <option>Default</option>
+        </select>
+        <br>
+        <input id="third-submit" type="submit" disabled="disabled" name="submit3">
+      </form>
+      </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <table class="u-full-width" id = "history">
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Item</th>
+      <th>Date added</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody id = "contents">
+  </tbody>
+</table>
+
+</div>
+
+</body>
+</html>

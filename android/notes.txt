@@ -1,0 +1,24 @@
+activity 
+-screens, layouts (like html, but it uses xml)
+
+services
+-run in the background to communicate to an api (like javascript in web)
+
+content manager
+-way to talk to database
+
+broadcast reciever 
+-ask if you want to launch with (camera, etc.)
+
+mainactivity.java is the primary coding page
+
+activity_main.xml is like the html and css equivalent (the layout)
+
+androidmainfest xml has information about the entirety of the app. you see what goes into the app (ex: firebase would want something here)
+
+settings > about phone > hit build number seven times to enter developer mode
+
+devmgmt.msc
+
+<TextView will let me add words (i can bring them in from database)
+make sure text view tags all have a unique id. tags in xml file are also a class in java (mainactivity)

@@ -1,0 +1,13 @@
+function addItems () {
+  console.log("begin adding item");
+  var val = $("#first-input").find('form').val();
+  $("button").click(function() {
+    if (("#first-input").length > 0) {
+      $("#location").removeAttr("disabled");
+    }
+    else {
+        console.log("nothing to add");
+      }
+  });
+  console.log("item added");
+}

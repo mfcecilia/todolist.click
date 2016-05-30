@@ -1,0 +1,88 @@
+Make the main 3 imputs (buttons and all) more big and bubbly
+
+get the time to actually update on each new entry
+  //put it all inside a function?
+  //add a live clock at the top of the page
+  and get it to grab whatever value was on the clock at
+  the time of submission
+
+"Delete" button in case you messed up or the list item is no longer
+relevant. it should also delete itself from the database.
+
+Implement the "incomplete" button then add an option to either
+keep it in a "complete" portion of the site (like how in skyrim
+you can see the completed quests in grey below the uncompleted
+quests) or delete the completed items.
+
+implement numbering of duplicates (this is significant because if
+i want to place multiple of the same item, and then add something
+before or after it, i'll choose which of the duplicates i am
+referring to)
+
+if second input contains "before" or "after" but third input
+has default, prompt user to make proper selection
+unit tests for methods
+
+depending on what's been selected prior, certain options
+shouldn't be available
+maybe, I can implement a dialogue box that comes up if they
+put in an impossible combo of selections
+ex: "before" + "default" == instructions on how to use
+tab or esc or x to exit dialogue box
+
+what if the third dropdown menu opened automatically?
+
+get the dropdown menu on the third input to alternate the colors
+of each list item
+
+i'm printing the row index (something is very
+wrong with my row index calculation) of each entry. i need to grab
+it as well as see what the count is doing.
+
+automatically reset the other inputs to their defaults after the fact
+
+button for incomplete-complete (store completions in an array?)
+
+android build using android studio (or eclipse)
+
+pebble build using cloud pebble in C
+
+make parts of table clickable (maybe it displays a notepad for
+further elaboration on the task?)
+
+push notifications at random times for random incomplete list items
+
+getter methods (functions) to return values of individual cells
+
+login page that redirects to main html for other to use once it's done
+
+figure out how to lock the code so no one can change it unless
+they consult me first (and for security reasons)
+
+connect bookmarts "todo" folder to the database so that links to be
+revisited are included as todo list items
+
+put an overlay over the html that has cool symbols and whatnot so
+it's not just solid color
+
+add a button that opens a dialog box that lets you enter your email
+to guage interest in the app expanding or being commercialized or becoming a
+mobile or pebble app for everyone to download
+
+login page will be one of those actual pictures but the color balance
+will be altered to match the current color scheme
+
+login page includes links to social media and github
+
+when you login, firebase creates a parent above "listItems"
+which holds the user id
+
+the login page is actually transluscent and you can see a screen
+shot of the main html page right behind it
+
+push email reminders randomly and from random parts of the list
+(figure out how to incorporate option to include email in the front end)
+
+cool ui/frontend option to take all items and splay them out in stickynote
+format so i can see it in a new way. that's so important. seeing the same
+info being delivered in multiple ways
