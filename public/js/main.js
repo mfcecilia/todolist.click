@@ -29,7 +29,6 @@ function processSnapshot(snapshot) {
   console.log('inside processSnapshot function');
   for (a = 0; a < 4; a++)
   {
-    // console.log(typeof snapshot.val());
     if (!typeof snapshot.val() == "object") {
       row.append($("<td>" + snapshot.val() + "</td>"));
     }
@@ -42,14 +41,11 @@ function processLoadSnapshot(v) {
 
   for (a = 0; a < 4; a++)
   {
-    console.log('stuff happening');
+    console.log('inside processLoadSnapshot');
     item = v[a];
-    // console.log(typeof snapshot.val());
-    // if (!typeof snapshot.val() == "object") {
-    console.log(item);
-    console.log(row);
+    console.log("item = " + item);
+    console.log("row = " + row);
     $('tr').last().append($("<td>" + item + "</td>"));
-    // }
   }
 }
 
@@ -58,7 +54,7 @@ function processLoadList(sval) {
   for (indice in sval) {
     item = sval[indice];
     processLoadSnapshot(item.contents);
-    console.log(item);
+    console.log("item = " + item);
   }
 }
 
@@ -91,7 +87,7 @@ $(document).ready(function(){
     }
 
     else {
-      inputHistory.push(val);
+      inputHistory.push(val); //this is the array where the third form gets it's menu items
 
 
       $("#location").removeAttr("disabled");
@@ -116,6 +112,7 @@ $(document).ready(function(){
 
         //avoid illogical choices by preventing the add-on of new options until it is necessary
         //and delaying other choices from appearing
+        //all of this needs to be a function
 
         if (itemArray.length > 0){
           var queue = inputHistory[number-1];
