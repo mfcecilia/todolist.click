@@ -90,3 +90,10 @@ format so i can see it in a new way. that's so important. seeing the same
 info being delivered in multiple ways
 
 use electron to turn it into a desktop app
+
+possibly be able to sort the list in alphabetical order, in order by
+date/time, and in order of complete vs incomplete.
+
+consider a way to have this become more social by allowing people the
+ability to see your list and rank things in order of what they think is
+more important. devise a way to make rankings influence notifications.
