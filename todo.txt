@@ -1,3 +1,5 @@
+icon for browser tab (in other words, i need a logo for this site)
+
 Make the main 3 imputs (buttons and all) more big and bubbly
 
 get the time to actually update on each new entry
@@ -86,3 +88,5 @@ push email reminders randomly and from random parts of the list
 cool ui/frontend option to take all items and splay them out in stickynote
 format so i can see it in a new way. that's so important. seeing the same
 info being delivered in multiple ways
+
+use electron to turn it into a desktop app
